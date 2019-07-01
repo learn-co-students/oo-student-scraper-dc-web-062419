@@ -20,12 +20,6 @@ class Student
     attributes_hash.each do |attribute, value|
       self.send("#{attribute}=", value)
     end
-    # @twitter = student_hash[:twitter]
-    # @linkedin = student_hash[:linkedin]
-    # @github = student_hash[:github]
-    # @blog = student_hash[:blog]
-    # @profile_quote = student_hash[:profile_quote]
-    # @bio = student_hash[:bio]
   end
 
   def self.all
